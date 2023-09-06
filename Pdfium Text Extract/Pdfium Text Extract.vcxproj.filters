@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\pdfium">
+      <UniqueIdentifier>{a84d2498-a3aa-46fc-bb01-8df93bcb979c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\pdfium">
+      <UniqueIdentifier>{17bb8aa1-8f12-4594-a927-1e0ad99483c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependencies">
+      <UniqueIdentifier>{4b194bfb-6d60-421f-9a7a-07dcaa26d024}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="textextract.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pdfpageinfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pdfrenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="textbox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="viewutils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="image_diff_png.cpp">
+      <Filter>Source Files\pdfium</Filter>
+    </ClCompile>
+    <ClCompile Include="load_support.cpp">
+      <Filter>Source Files\pdfium</Filter>
+    </ClCompile>
+    <ClCompile Include="path_service.cpp">
+      <Filter>Source Files\pdfium</Filter>
+    </ClCompile>
+    <ClCompile Include="textextractutils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pagerange.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="outpututils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pdfpageinfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pdfrenderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="viewutils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="textbox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fx_system.h">
+      <Filter>Header Files\pdfium</Filter>
+    </ClInclude>
+    <ClInclude Include="image_diff_png.h">
+      <Filter>Header Files\pdfium</Filter>
+    </ClInclude>
+    <ClInclude Include="load_support.h">
+      <Filter>Header Files\pdfium</Filter>
+    </ClInclude>
+    <ClInclude Include="logging.h">
+      <Filter>Header Files\pdfium</Filter>
+    </ClInclude>
+    <ClInclude Include="macros.h">
+      <Filter>Header Files\pdfium</Filter>
+    </ClInclude>
+    <ClInclude Include="path_service.h">
+      <Filter>Header Files\pdfium</Filter>
+    </ClInclude>
+    <ClInclude Include="safe_conversions.h">
+      <Filter>Header Files\pdfium</Filter>
+    </ClInclude>
+    <ClInclude Include="safe_conversions_impl.h">
+      <Filter>Header Files\pdfium</Filter>
+    </ClInclude>
+    <ClInclude Include="textextractutils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pagerange.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="outpututils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="vcpkg.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="pdfium.dll">
+      <Filter>Dependencies</Filter>
+    </None>
+  </ItemGroup>
+</Project>

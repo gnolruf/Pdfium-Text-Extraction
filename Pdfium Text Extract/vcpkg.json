@@ -1,0 +1,39 @@
+{
+  "name": "pdfium-test-extraction",
+  "version-semver": "1.0.0",
+  "dependencies": [
+    "boost-program-options",
+    "boost-locale",
+    "opencv",
+    "nlohmann-json",
+    "zlib",
+    "libpng"
+  ],
+  "builtin-baseline": "7e3dcf74e37034eea358934a90a11d618520e139",
+  "overrides": [
+    {
+      "name": "boost-program-options",
+      "version": "1.81.0"
+    },
+    {
+      "name": "boost-locale",
+      "version": "1.81.0"
+    },
+    {
+      "name": "opencv",
+      "version": "4.5.5"
+    },
+    {
+      "name": "nlohmann-json",
+      "version": "3.11.2"
+    },
+    {
+      "name": "zlib",
+      "version": "1.2.13"
+    },
+    {
+      "name": "libpng",
+      "version": "1.6.39"
+    }
+  ]
+}
