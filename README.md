@@ -9,12 +9,17 @@ Text with bounds - the text of a PDF, with each word being assigned a bounding b
 ## Dependencies
 
 Vcpkg is used to install and link dependencies (except for Pdfium.)
+
 A vcpkg manifest is used to manage dependencies excluding Pdfium, which must be built and linked manually.
 
 OpenCV is used for the Rect class to represent the bounding boxes for each word. It is also used for its Mat class to render a PDF page to an image, for debugging purposes.
+
 Boost Program Options are used to configure command line arguements.
+
 Boost Locale is used for some UTF-8 conversion utilities.
+
 Nlohmann-JSON is used for creating JSON files for text with its bounding boxes.
+
 Zlib and LibPNG are both dependencies used with Pdfium for rendering pages to an image file.
 
 ## Compilation Requirements
